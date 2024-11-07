@@ -15,11 +15,26 @@ PORT = 4444
 
 def show_startup_sequence():
     os.system('cls' if os.name == 'nt' else 'clear')
+    print(Fore.LIGHTBLACK_EX + """
+██╗   ██╗ ██████╗ ██╗██████╗                         
+██║   ██║██╔═══██╗██║██╔══██╗                        
+██║   ██║██║   ██║██║██║  ██║                        
+╚██╗ ██╔╝██║   ██║██║██║  ██║                        
+ ╚████╔╝ ╚██████╔╝██║██████╔╝                        
+  ╚═══╝   ╚═════╝ ╚═╝╚═════╝      
+""")
+
+    print(Fore.LIGHTGREEN_EX +  "██████╗██╗   ██╗ ██████╗ ███╗   ██╗██╗   ██╗███████╗")
+    print(Fore.LIGHTRED_EX +   "██╔════╝╚██╗ ██╔╝██╔════╝ ████╗  ██║██║   ██║██╔════╝")
+    print(Fore.LIGHTCYAN_EX +  "██║       ╚████╔╝██║   ██╗██╔██╗ ██║██║   ██║███████╗")
+    print(Fore.LIGHTBLUE_EX +  "██║       ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║╚════██║")
+    print(Fore.LIGHTMAGENTA_EX +"╚██████╗  ██║   ╚██████╔╝██║ ╚████║╚██████╔╝███████║")
+    print(Fore.LIGHTRED_EX + " ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝")
     print(Fore.GREEN + "=" * 40)
     print(Fore.CYAN + "           Cygnus Server v1.0")
     print(Fore.GREEN + "=" * 40)
     print(Fore.MAGENTA + "Developed by Void Cygnus")
-    print(Fore.BLUE + "Tool for managing client remotely.")
+    print(Fore.BLUE + "Tool for managing victim remotely.")
     print(Fore.RED + "Loading... Please wait")
     print(Fore.GREEN + "=" * 40)
     time.sleep(1)
