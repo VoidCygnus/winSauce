@@ -1,16 +1,4 @@
-socket
-subprocess
-os
-re
-json
-base64
-sqlite3
 pywin32
 pycryptodome
-shutil
-platform
-time
-threading
 colorama
 pillow
-io
